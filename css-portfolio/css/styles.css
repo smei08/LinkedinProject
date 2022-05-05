@@ -1,0 +1,69 @@
+/* Global styles 
+--------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  font-family: "Source Serif Pro", serif;
+  font-size: 20px;
+}
+.content-wrapper {
+  width: 900px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+/* Profile
+--------------------------------------------*/
+header {
+  background: #e4b7e5;
+  text-align: center;
+}
+h1 {
+  font-family: "Lobster", cursive;
+}
+/* Projects
+--------------------------------------------*/
+.projects {
+  background: #b288c0;
+}
+
+/* Work 
+--------------------------------------------*/
+.work-experience {
+  background: #7e5a9b;
+}
+
+/* Education
+--------------------------------------------*/
+.education {
+  background: skyblue;
+}
+
+/* Contact 
+--------------------------------------------*/
+footer {
+  background: #5a2f91;
+  color: rgba(196, 196, 196, 0.899);
+  text-align: center;
+}
+.contact-list a {
+  color: white;
+  padding: 15px;
+  display: inline-block;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
